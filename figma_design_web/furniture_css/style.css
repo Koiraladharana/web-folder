@@ -1,0 +1,36 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100vw;
+    height: 4rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-text ul{
+    display: flex;
+    gap: 60px;
+}
+.nav-text ul li{
+    list-style: none;
+    font-size: larger;
+font-weight: 540;
+}
+.nav-logo ul{
+    display: flex;
+    gap: 40px;
+}
+.nav-logo ul li{
+    list-style: none;
+}
+.hero-img{
+    width: 100vw;
+    height: calc(100vh - 4rem);
+}
